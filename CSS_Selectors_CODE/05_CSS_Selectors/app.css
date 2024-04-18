@@ -71,28 +71,15 @@ footer a {
     color: #e63946;
 }
 
-/* h2 + button {
-    font-size: 20px;
-}
 
-footer > a {
-    color: #457b9d;
-}
+/*
+Pseudo Classes: Keyword added to a selector that specifies a special state of the selected element(s)
 
-input[type="password"] {
-    color: greenyellow;
-}
-
-a[href*="google"]{
-    color: #1d3557;
-}
-
-
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+*/
 .post a:hover {
     text-decoration: underline;
 }
-
-
 .post button:active {
     background-color: #02c39a;
 }
@@ -100,6 +87,11 @@ a[href*="google"]{
 .post:nth-of-type(2n){
     background-color: #dfe8dc;
 }
+
+/*
+Pseudo Elements
+Keyword added to a selector that lets the user style a particular part of the selected element(s)
+*/
 
 h2::first-letter {
     font-size: 50px;
@@ -124,4 +116,21 @@ button:hover {
 
 button {
     background-color: magenta !important;
-} */
+}
+
+
+/* h2 + button {
+    font-size: 20px;
+}
+
+footer > a {
+    color: #457b9d;
+}
+
+input[type="password"] {
+    color: greenyellow;
+}
+
+a[href*="google"]{
+    color: #1d3557;
+}*/
