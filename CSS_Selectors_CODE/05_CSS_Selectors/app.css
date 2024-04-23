@@ -11,8 +11,8 @@ selector{
 
 /* Universal selector: select everything! */
 
-*{
-    color : black;
+* {
+    color: black;
 }
 
 /* Element selector: select everything of the given type */
@@ -29,7 +29,8 @@ button {
 
 /* Selector list: combine multiple selectors in a list */
 
-h1,h2 {
+h1,
+h2 {
     color: #1d3557;
 }
 
@@ -38,7 +39,7 @@ h1,h2 {
         #element_id{ … }
 */
 
-#signup{
+#signup {
     background-color: #1d3557;
     color: #f1faee;
 }
@@ -80,11 +81,12 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
 .post a:hover {
     text-decoration: underline;
 }
+
 .post button:active {
     background-color: #02c39a;
 }
 
-.post:nth-of-type(2n){
+.post:nth-of-type(2n) {
     background-color: #dfe8dc;
 }
 

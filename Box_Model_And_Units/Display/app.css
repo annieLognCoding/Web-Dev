@@ -1,0 +1,36 @@
+/* The Display Property 
+Inline elements fit in alongside other elements
+    Width and height are ignored
+    Margin and padding push elements away horizontally but not vertically
+
+Block level elements take up a whole “block” of space
+    Block elements break the flow of a document
+    Width, height, margin, and padding are respected
+
+Inline-block
+    Behave like an inline element
+    Width, height, margin, and padding are respected
+    No default margin to take up the whole block
+
+None
+    Element is hidden
+*/
+
+span {
+    background-color: palevioletred;
+    border: 1px solid black;
+    text-align: center;
+    width: 500px;
+    padding: 50px;
+    margin: 50px;
+    /* display: block; */
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: olivedrab;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 50px;
+}

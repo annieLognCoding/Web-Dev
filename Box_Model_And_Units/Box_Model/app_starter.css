@@ -1,0 +1,40 @@
+/* Border and Border-Radius
+    Border-width: controls the thickness of the border
+    Border-color: controls the color of the border
+    Border-style: controls the line style- dashed, solid, etc.
+        Need all three elements
+    Border: width **style** color
+
+    Border-radius:  rounds the corners of an element's outer border edge
+        Could use px or %
+        Order: NW | NE | SE | SW
+        Order: NW, SE | NE, SW
+ */
+
+
+/* 
+Padding
+    Area between the border and the content box
+    Individual properties: padding-left, padding-right, padding-bottom, padding-top
+*/
+
+/*
+Padding shorthand property
+    Apply to all four sides padding: 50px;
+    vertical | horizontal padding: 10px 20px;
+    top | horizontal | bottom padding: 1px 2px 2px;
+    top | right | bottom | left (clockwise) padding: 5px 1px 0 2px;
+*/
+
+/*  
+Margin
+    Outside the element’s border; Between the element and something else 
+    Individual properties: margin-left, margin-right, margin-bottom, margin-top 
+    Margin shorthand property 
+        Apply to all four sides margin: 50px;
+        vertical | horizontal margin: 10px 20px;
+        top | horizontal | bottom margin: 1px 2px 2px;
+        top | right | bottom | left (clockwise) margin: 5px 1px 0 2px;
+        
+        margin: auto; is used to center an element horizontally within its parent container. 
+*/

@@ -1,0 +1,96 @@
+/* 
+What is Flexbox?
+    One-dimensional layout method for laying out items in rows or columns
+    Recent addition to CSS
+    Allows us to distribute space dynamically across elements of an unknown size
+ */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* 
+Flex-Dimension
+    The flex model: main axis, cross axis
+    display: flex;
+    flex-direction: main axis (row or column);
+ */
+
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* wrap: when content inside takes up more space */
+    justify-content: space-between;
+    /* justify: when content inside takes up less space */
+    align-items: stretch;
+    /* align-content: center; */
+}
+
+/* 
+
+Justify-Content
+    Default: flex-start;
+        defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container
+        Positional alignment
+        start (flex-start), end (flex-end), left, right, center
+
+    Distributed alignment:
+    space-between, space-around, space-evenly
+
+Flex-Wrap
+    Determines whether the elements are going to wrap along the main axis onto a new line or a new column
+    sets whether flex items can wrap onto multiple lines
+    Sets direction that lines are stacked
+
+    flex-wrap: wrap
+        flex items break into multiple line
+    flex-wrap: wrap-reverse
+        Behaves the same as wrap but cross-start and cross-end are switched
+
+ */
+
+/* 
+Align
+
+    Align-items: controls the alignment of items on the Cross Axis
+    align-content: sets the distribution of space between and around content items along a flexbox's cross-axis
+    only when wrap is turned on
+
+
+*/
+#container div {
+    flex-basis: 50%;
+    height: 30%;
+}
+
+
+
+
+/* 
+
+Flex-Basis, Grow & Shrink
+    flex-basis: defines the initial size of an element before additional space is distributed
+    flex-grow: controls the amount of available space an element should take up
+        Accepts a unit-less number value that depends on proportion
+        Can be applied to individual item
+        max-width controls maximum size
+    flex-shrink: if items are larger than the container, they shrink according to flex-shrink
+
+*/
+
+#container div:nth-of-type(5) {
+    flex-grow: 2;
+    /* if there is no space to grow, it does not grow */
+    /* align-self: Overrides a grid or flex item's align-items value; 
+       aligns the item on the cross axis Applied to the item itself instead of the container */
+}

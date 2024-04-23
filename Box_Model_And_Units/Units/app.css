@@ -1,0 +1,78 @@
+html {
+    font-size: 30px;
+}
+
+/* 
+Percentages
+    Always relative to some other value (sometimes of the parent and other times of the element itself)
+    width, height: width and height of the parent
+ */
+#percentages {
+    background-color: #6d6875;
+    width: 800px;
+    height: 800px;
+}
+
+#percentages div {
+    background-color: #e5989b;
+    width: 70%;
+    height: 20%;
+}
+
+/* Ems
+    Relative unit to the font-size
+    Scales based on nestedness
+        Font-size is relative to the parent
+        1em equals the font-size of the parent
+        2em equals twice the font-size of the parent
+
+    Other properties: 1em is equal to the computed font-size of the element itself
+ */
+
+#ems h2 {
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+#ems h3 {
+    font-size: 1.5em;
+}
+
+#ems p {
+    font-size: 1em;
+}
+
+#ems ul {
+    font-size: 1.5em;
+}
+
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: #2a9d8f;
+    color: white;
+}
+
+/* 
+Rems
+    Root ems
+    Relative to the root html element’s font-size
+    If the root font-size is 20px, 1 rem is always 20px
+
+ */
+#rems h2 {
+    font-size: 3rem;
+}
+
+#rems h3 {
+    font-size: 2rem;
+}
+
+#rems ul {
+    font-size: 1.5rem;
+}
+
+#rems button {
+    font-size: 1.5rem;
+}
