@@ -6,15 +6,47 @@ h1 {
     font-size: 6em;
     text-align: center;
 }
+
 nav {
     font-size: 1.5em;
 }
 
-ul,li {
+ul,
+li {
     display: inline;
     margin: 0;
     padding: 0;
 }
 
+/* 
+Responsive Design and Media Queries
+Problem: How do we create websites that look good on all screen sizes?
+>>> One approach: early on, it was common to create separate stylesheets for different devices
+>>> Completely different websites for each size
+
+Responsive design: one website and stylesheet that is able to respond to different device sizes and features
+Media queries: features that allow us to modify our styles depending 
+        on particular parameters like screen width or device type
+*/
+
+/* format: @media (parameter) and (parameter) and (parameter)... {...} */
 
 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    nav,
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 3em;
+    }
+}
