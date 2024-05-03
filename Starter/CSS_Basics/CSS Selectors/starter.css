@@ -55,5 +55,9 @@ Specificity
 
     - The later declaration overwrites previous ones
     - Id > class > element
+    - Inline style: the most specific
+    - !important: Applied to a property
+        Ex: background-color: red !important;
+        Overrides any other declaration
 
 */
