@@ -1,0 +1,35 @@
+/* Basics */
+
+/* set html font to Open Sans, sans-serif */
+
+/* set background of body to #60a9ff */
+
+/* 1. Panel class should have background-color: white */
+/* 2. Center your content horizontally and vertically */
+/* 3. Make your panels rounder and padded */
+/* 4. Max-width = 960px */
+
+/* Mobile First -- Column Based */
+/* 1. Panel should have content stacked vertically */
+/* 2. Center align text; uppercase your text */
+/* 3. Each section within Panel should have a border at the bottom
+     except the last section */
+/* 4. Add some margin on the images */
+
+/* Typography */
+/* 1. pricing-header: bold, color #888, letter spacing */
+/* 2. pricing-features: add margin; color: #016ff9 */
+/* 3. pricing-features-items: bold, letter spacing, resize: 12px; 1.5-line spaced; add border on top */
+/* 4. pricing-price: color: #016ff9; larger font-size, bold */
+
+/* Make your anchor Tags look like buttons */
+/* 1. set border, make it round. */
+/* 2. color: #348efe */
+/* 3. Don't undreline text, add padding and margin */
+/* 4. When we hover over the button or focus on it, change background color to #e1f1ff */
+/* 5. Style is-featured button */
+
+/* PC layout */
+/* 1. media query (after 900px) --> */
+/* 2.  panel to row */
+/* 2. Border Manipulation */

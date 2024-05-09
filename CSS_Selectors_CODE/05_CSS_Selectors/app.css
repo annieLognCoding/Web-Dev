@@ -1,21 +1,6 @@
-/* 
-Universal and Element Selectors
-
-specificity calculator: https://specificity.keegan.st/
-
-Basic CSS rules
-selector{
-    property : description;
-}   
-*/
-
-/* Universal selector: select everything! */
-
-* {
-    color: black;
-}
-
-/* Element selector: select everything of the given type */
+/* * {
+    background-color: cyan;
+} */
 
 body {
     background-color: #f1faee;
@@ -26,20 +11,11 @@ button {
     background-color: #a8dadc;
 }
 
-
-/* Selector list: combine multiple selectors in a list */
-
-h1,
-h2 {
+h1,h2 {
     color: #1d3557;
 }
 
-/*
-    The ID Selector
-        #element_id{ … }
-*/
-
-#signup {
+#signup{
     background-color: #1d3557;
     color: #f1faee;
 }
@@ -47,14 +23,6 @@ h2 {
 span {
     color: #457b9d;
 }
-
-/*
-    The Class Selector
-    Select elements with class of “class_name”
-    A class could span across different elements
-    
-    .class_name {...}
-*/
 
 .tag {
     background-color: #e63946;
@@ -72,28 +40,35 @@ footer a {
     color: #e63946;
 }
 
+h2 + button {
+    font-size: 20px;
+}
 
-/*
-Pseudo Classes: Keyword added to a selector that specifies a special state of the selected element(s)
+footer > a {
+    color: #457b9d;
+}
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
-*/
+input[type="password"] {
+    color: greenyellow;
+}
+
+a[href*="google"]{
+    color: #1d3557;
+}
+
+
 .post a:hover {
     text-decoration: underline;
 }
+
 
 .post button:active {
     background-color: #02c39a;
 }
 
-.post:nth-of-type(2n) {
+.post:nth-of-type(2n){
     background-color: #dfe8dc;
 }
-
-/*
-Pseudo Elements
-Keyword added to a selector that lets the user style a particular part of the selected element(s)
-*/
 
 h2::first-letter {
     font-size: 50px;
@@ -119,20 +94,3 @@ button:hover {
 button {
     background-color: magenta !important;
 }
-
-
-/* h2 + button {
-    font-size: 20px;
-}
-
-footer > a {
-    color: #457b9d;
-}
-
-input[type="password"] {
-    color: greenyellow;
-}
-
-a[href*="google"]{
-    color: #1d3557;
-}*/

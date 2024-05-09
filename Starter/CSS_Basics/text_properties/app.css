@@ -1,0 +1,26 @@
+
+/* Common Text Properties */
+/* 
+    -text-align: sets the horizontal alignment of the inline-level content
+    -font-wegiht: "boldness" of the font
+    -text-decoration: sets the appearance of decorative lines on text
+        -Line: Underline, overline, line-through
+        -Style: wavy, dotted, etc.
+    -line-height: sets the distance between lines of text
+    -line-spacing: horizontal spacing behavior between text characters
+    -text-transform: capitalization
+*/
+
+/* Font Size: 
+    - Absolute Units
+        -px: by far the most commonly used absolute unit
+    - Relative Units
+        -sets the size relative to current or parent element
+*/
+
+/* Font Family:
+    https://www.cssfontstack.com/
+    font-family: The font-family CSS property specifies 
+        a prioritized list of one or more font family names 
+        and/or generic family names for the selected element
+*/

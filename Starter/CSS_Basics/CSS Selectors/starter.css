@@ -1,0 +1,63 @@
+/* 
+Universal and Element Selectors
+
+specificity calculator: https://specificity.keegan.st/
+
+Basic CSS rules
+selector{
+    property : description;
+}   
+*/
+
+/* Universal selector: select everything! */
+
+/* Element selector: select everything of the given tag */
+
+
+/* Selector list: combine multiple selectors in a list */
+
+
+/*
+    The ID Selector
+        #element_id{ … }
+*/
+
+
+/*
+    The Class Selector
+    Select elements with class of “class_name”
+    A class could span across different elements
+    
+    .class_name {...}
+*/
+
+/* 
+    The Descendant Selector
+    
+    Select the children nested inside specified parents
+    parent child {...}
+*/
+
+
+/*
+    Pseudo Classes: Keyword added to a selector that specifies a special state of the selected element(s)
+
+    https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+*/
+
+/*
+    Pseudo Elements
+    Keyword added to a selector that lets the user style a particular part of the selected element(s)
+*/
+
+/* 
+Specificity
+
+    - The later declaration overwrites previous ones
+    - Id > class > element
+    - Inline style: the most specific
+    - !important: Applied to a property
+        Ex: background-color: red !important;
+        Overrides any other declaration
+
+*/
