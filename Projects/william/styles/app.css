@@ -1,0 +1,42 @@
+body,
+html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tabs button {
+    padding: 10px 20px;
+    cursor: pointer;
+    float: left;
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    transition: background-color 0.3s;
+}
+
+.tabs button:hover {
+    background-color: #ddd;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    clear: both;
+}
+
+.tablink {
+    font-size: 17px;
+}
+
+.game,
+.images,
+.explanation {
+    margin-top: 20px;
+}
+
+.images img {
+    width: 100px;
+    /* Adjust based on your layout needs */
+    margin-right: 10px;
+}

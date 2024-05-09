@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Interface</title>
+    <link rel="stylesheet" href="styles/app.css">
+</head>
+
+<body>
+    <div class="tabs">
+        <button class="tablink" onclick="openTab(event, 'Game')">Game</button>
+        <button class="tablink" onclick="openTab(event, 'About')">About</button>
+    </div>
+
+    <div id="Game" class="tabcontent">
+        <h2>Title</h2>
+        <div class="game">
+            <p>Game section goes here (embed game or image).</p>
+        </div>
+        <div class="explanation">
+            <p>Detailed explanation about the game.</p>
+        </div>
+    </div>
+
+    <div id="About" class="tabcontent">
+        <h2>About Me</h2>
+        <p>Some information about the game creator.</p>
+        <div class="images">
+            <img src="image1.jpg" alt="Image description">
+            <img src="image2.jpg" alt="Image description">
+        </div>
+    </div>
+
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>
